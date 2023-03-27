@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 :root {
   --logo-web-color: rgba(33, 150, 243, 1);
   --button-color: rgba(245, 244, 250, 1);
