@@ -79,6 +79,9 @@ body {
 .filter {
   list-style: none;
   font-family: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .button-filter {
   font-size: 16px;
@@ -92,6 +95,10 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 8px;
   padding: 6px 22px;
+}
+.filter li {
+  display: inline-block;
+  margin-left: 8px;
 }
 .brand-pictures {
   list-style: none;
