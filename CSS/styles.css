@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
 }
 :root {
   --logo-web-color: rgba(33, 150, 243, 1);
@@ -79,9 +80,6 @@ body {
 .filter {
   list-style: none;
   font-family: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .button-filter {
   font-size: 16px;
@@ -94,11 +92,10 @@ body {
   line-height: 1.625;
   letter-spacing: 0.03em;
   margin-bottom: 8px;
-  padding: 6px 22px;
-}
-.filter li {
-  display: inline-block;
-  margin-left: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 .brand-pictures {
   list-style: none;
@@ -155,7 +152,10 @@ h1 span {
   border-radius: 4px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  padding: 10px 41px 10px 42px;
+  padding-right: 41px;
+  padding-left: 42px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .home-list {
