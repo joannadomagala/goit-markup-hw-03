@@ -148,13 +148,6 @@ body {
   line-height: 1.625;
   letter-spacing: 0.03em;
 }
-brand-card-set {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 0 215px 94px;
-}
-
 .brand-card {
   width: 370px;
   background-color: var(--background-color-brand-card);
@@ -163,6 +156,11 @@ brand-card-set {
 
 .brand-pictures {
   list-style: none;
+  display: grid;
+  grid-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 215px 94px;
 }
 
 .brand-task {
