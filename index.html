@@ -16,11 +16,11 @@
     />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <a href="./" class="logo">
-          <span class="web">Web</span><span class="studio"><b>Studio</b></span>
-        </a>
+    <header class="container">
+      <a href="./" class="logo">
+        <span class="web">Web</span><span class="studio"><b>Studio</b></span>
+      </a>
+      <div class="container-header">
         <nav>
           <ul class="navigation">
             <li><a href="./">Agencja</a></li>
@@ -32,19 +32,22 @@
           <li><a href="mailto:info@studio.com">info@studio.com</a></li>
           <li><a href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
-      </header>
-    </div>
-    <div class="container">
-      <main>
-        <section class="main-side" class="section">
+      </div>
+    </header>
+
+    <main>
+      <section class="main-side section">
+        <div class="container-main-side">
           <h1>
             <span>EFEKTYWNE ROZWIĄZANIA</span>
             <span>DLA WASZEGO BIZNESU</span>
           </h1>
           <button type="button" class="button-main-side">Zamów usługe</button>
-        </section>
+        </div>
+      </section>
 
-        <section class="section">
+      <section class="section container">
+        <div class="home-list-container">
           <ul class="home-list">
             <li>
               <h2 class="list-title">LOREM IPSUM</h2>
@@ -75,11 +78,13 @@
               </p>
             </li>
           </ul>
-        </section>
+        </div>
+      </section>
 
-        <section class="task-list" class="section">
+      <section class="task-list section container">
+        <div class="task-list-container">
           <h2 class="task-list-title">Czym się zajmujemy</h2>
-          <ul class="task-list">
+          <ul class="task-list-pics">
             <li>
               <img
                 src="images/img-work-1.jpg"
@@ -105,82 +110,79 @@
               />
             </li>
           </ul>
-        </section>
-
-        <section class="crew" class="section">
-          <h2 class="crew-title">Nasz Zespół</h2>
-          <ul class="crew">
-            <div class="crew-card">
-              <li>
-                <img
-                  src="images/JohnDoe-1.jpg"
-                  alt="smiling elegantly dressed man"
-                  width="270"
-                  height="260"
-                />
-                <p class="crew-name">John Doe</p>
-                <p class="crew-position">Product designer</p>
-              </li>
-            </div>
-            <div class="crew-card">
-              <li>
-                <img
-                  src="images/JaneDoe-2.jpg"
-                  alt="smiling elegantly dressed woman"
-                  width="270"
-                  height="260"
-                />
-                <p class="crew-name">Jane Doe</p>
-                <p class="crew-position">Frontend Developer</p>
-              </li>
-            </div>
-            <div class="crew-card">
-              <li>
-                <img
-                  src="images/JohnDoe-3.jpg"
-                  alt="smiling elegantly dressed man"
-                  width="270"
-                  height="260"
-                />
-
-                <p class="crew-name">John Doe</p>
-                <p class="crew-position">Marketing</p>
-              </li>
-            </div>
-            <div class="crew-card">
-              <li>
-                <img
-                  src="images/JohnDoe-4.jpg"
-                  alt="smiling man wearing a black t-shirt"
-                  width="270"
-                  height="260"
-                />
-
-                <p class="crew-name">John Doe</p>
-                <p class="crew-position">UI Designer</p>
-              </li>
-            </div>
-          </ul>
-        </section>
-      </main>
-    </div>
-    <div class="container">
-      <footer>
-        <a href="./" class="logo">
-          <span class="web">Web</span><span class="studio-footer">Studio</span>
-        </a>
-        <div class="address">
-          <ul class="kontakt-down">
-            <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-            <li class="kontakt-footer">
-              <a href="mailto:info@studio.com">info@studio.com</a>
-            </li>
-            <li class="kontakt-footer">
-              <a href="tel:+48111111111">+48 111 111 111</a>
-            </li>
-          </ul>
         </div>
-      </footer>
-    </div>
+      </section>
+
+      <section class="crew section">
+        <h2 class="crew-title">Nasz Zespół</h2>
+        <ul class="crew">
+          <div class="crew-card">
+            <li>
+              <img
+                src="images/JohnDoe-1.jpg"
+                alt="smiling elegantly dressed man"
+                width="270"
+                height="260"
+              />
+              <p class="crew-name">John Doe</p>
+              <p class="crew-position">Product designer</p>
+            </li>
+          </div>
+          <div class="crew-card">
+            <li>
+              <img
+                src="images/JaneDoe-2.jpg"
+                alt="smiling elegantly dressed woman"
+                width="270"
+                height="260"
+              />
+              <p class="crew-name">Jane Doe</p>
+              <p class="crew-position">Frontend Developer</p>
+            </li>
+          </div>
+          <div class="crew-card">
+            <li>
+              <img
+                src="images/JohnDoe-3.jpg"
+                alt="smiling elegantly dressed man"
+                width="270"
+                height="260"
+              />
+              <p class="crew-name">John Doe</p>
+              <p class="crew-position">Marketing</p>
+            </li>
+          </div>
+          <div class="crew-card">
+            <li>
+              <img
+                src="images/JohnDoe-4.jpg"
+                alt="smiling man wearing a black t-shirt"
+                width="270"
+                height="260"
+              />
+              <p class="crew-name">John Doe</p>
+              <p class="crew-position">UI Designer</p>
+            </li>
+          </div>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <a href="./" class="logo">
+        <span class="web">Web</span><span class="studio-footer">Studio</span>
+      </a>
+      <div class="address">
+        <ul class="kontakt-down">
+          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+          <li class="kontakt-footer">
+            <a href="mailto:info@studio.com">info@studio.com</a>
+          </li>
+          <li class="kontakt-footer">
+            <a href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
