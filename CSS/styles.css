@@ -244,6 +244,7 @@ h1 span {
 .list-descr {
   font-size: 14px;
   color: var(--font-color-describe);
+  margin-top: 10px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
