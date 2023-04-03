@@ -20,6 +20,10 @@
 *::after {
   box-sizing: border-box;
 }
+body {
+  font-family: "roboto", sans-serif;
+  color: var(--font-color-basic);
+}
 .container {
   width: 100%;
   max-width: 1200px;
@@ -196,6 +200,9 @@ h1 span {
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
+.home-list-container {
+  margin-top: 94px;
+}
 ul.home-list {
   list-style: none;
   display: flex;
@@ -277,5 +284,70 @@ ul.home-list {
   margin-top: 10px;
   margin-bottom: 30px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+/* PORTFOLIO */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.filter {
+  list-style: none;
+  font-family: inherit;
+}
+.filter li {
+  display: inline-block;
+  margin-right: 8px;
+}
+.filter li:not(:last-child) {
+  margin-right: 8px;
+}
+.button-filter {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+}
+.brand-container {
+  margin-bottom: 94px;
+}
+.brand-card {
+  background-color: var(--background-color-brand-card);
+  border: 1px solid var(--border-color-brand-card);
+}
+.brand-card img {
+  width: 100%;
+}
+
+.brand-pictures {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.brand-task {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: inherit;
+  padding: 20px 0 0 24px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.brand-task-descr {
+  font-size: 16px;
+  font-family: inherit;
+  color: var(--font-color-describe);
+  padding-left: 24px;
+  padding-bottom: 20px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
