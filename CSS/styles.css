@@ -200,3 +200,46 @@ ul.home-list {
   list-style: none;
   gap: 30px;
 }
+.crew {
+  background-color: var(--background-color-crew);
+  text-align: center;
+}
+.crew-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.crew-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.crew-card {
+  background: var(--background-color-crew-card);
+  box-shadow: var(--box-shadow-crew);
+  justify-content: center;
+  width: 270px;
+}
+.crew-card img {
+  width: 100%;
+}
+.crew-name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.crew-position {
+  font-size: 16px;
+  color: var(--font-color-describe);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
