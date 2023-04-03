@@ -126,6 +126,42 @@ a:hover {
 a:focus {
   color: var(--hover-focus-color);
 }
+/* FOOTER */
+.address > ul {
+  font-family: inherit;
+  font-weight: inherit;
+  color: var(--font-color-special);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+footer {
+  background-color: var(--background-sides-element-color);
+  color: var(--font-color-special);
+}
+.logo-footer {
+  font-size: 26px;
+  display: flex;
+  padding-top: 60px;
+}
+.address {
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+.kontakt-down {
+  font-size: 14px;
+  list-style: none;
+  color: var(--font-color-footer);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.kontakt-footer a {
+  font-size: 14px;
+  color: var(--font-color-footer);
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 /* INDEX */
 
 .container-main-side {
