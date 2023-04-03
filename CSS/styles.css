@@ -126,3 +126,60 @@ a:hover {
 a:focus {
   color: var(--hover-focus-color);
 }
+/* INDEX */
+
+.container-main-side {
+  display: block;
+}
+.main-side {
+  background-color: var(--background-sides-element-color);
+  font-family: inherit;
+  text-align: center;
+  align-items: center;
+}
+h1 {
+  font-size: 44px;
+  font-family: inherit;
+  color: var(--font-color-special);
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+h1 span {
+  display: block;
+}
+.button-main-side {
+  background-color: var(--button-color-main-side);
+  color: var(--font-color-special);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 42px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+ul.home-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.list-title {
+  font-size: 14px;
+  font-weight: 700;
+  align-content: center;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.list-descr {
+  font-size: 14px;
+  color: var(--font-color-describe);
+  margin-top: 10px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
