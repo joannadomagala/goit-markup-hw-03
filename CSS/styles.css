@@ -159,6 +159,7 @@ footer {
 .logo-footer {
   font-size: 26px;
   padding-top: 60px;
+  padding-bottom: 0;
   margin-bottom: 20px;
 }
 .kontakt-down {
@@ -169,6 +170,13 @@ footer {
   padding-bottom: 60px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.kontakt-down li {
+  margin-bottom: 9px;
+  display: block;
+}
+.kontakt-down li:not(:last-child) {
+  margin-bottom: 9px;
 }
 .address ul {
   padding-left: 0;
