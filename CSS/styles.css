@@ -351,6 +351,8 @@ button.button-main-side:focus {
   font-size: 18px;
   font-weight: 700;
   font-family: inherit;
+  margin-bottom: 4px;
+  padding-left: 24px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
@@ -358,6 +360,9 @@ button.button-main-side:focus {
   font-size: 16px;
   font-family: inherit;
   color: var(--font-color-describe);
+  margin-top: 0px;
+  padding-left: 24px;
+  padding-bottom: 20px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
