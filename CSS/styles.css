@@ -316,6 +316,16 @@ ul.home-list {
   line-height: 1.625;
   letter-spacing: 0.03em;
 }
+button.button-filter:hover,
+button.button-main-side:hover {
+  background-color: var(--hover-focus-color);
+  color: var(--font-color-special);
+}
+button.button-filter:focus,
+button.button-main-side:focus {
+  background-color: var(--hover-focus-color);
+  color: var(--font-color-special);
+}
 .brand-container {
   margin-bottom: 94px;
 }
@@ -326,14 +336,12 @@ ul.home-list {
 .brand-card img {
   width: 100%;
 }
-
 .brand-pictures {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
-
 .brand-task {
   font-size: 18px;
   font-weight: 700;
