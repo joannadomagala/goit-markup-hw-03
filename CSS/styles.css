@@ -291,8 +291,7 @@ ul.home-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-top: 94px;
 }
 .filter {
   list-style: none;
@@ -310,6 +309,7 @@ ul.home-list {
   font-weight: 500;
   font-family: inherit;
   background-color: var(--button-color);
+  padding: 6px 22px 6px 22px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -327,7 +327,8 @@ button.button-main-side:focus {
   color: var(--font-color-special);
 }
 .brand-container {
-  margin-bottom: 94px;
+  margin-top: 50px;
+  padding-top: 0;
 }
 .brand-card {
   background-color: var(--background-color-brand-card);
@@ -354,8 +355,7 @@ button.button-main-side:focus {
   font-size: 16px;
   font-family: inherit;
   color: var(--font-color-describe);
-  padding-left: 24px;
-  padding-bottom: 20px;
+  padding: 0 0 20px 24px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
