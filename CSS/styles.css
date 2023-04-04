@@ -72,6 +72,7 @@ body {
 header {
   display: flex;
   align-items: center;
+  height: 80px;
 }
 
 a:link {
