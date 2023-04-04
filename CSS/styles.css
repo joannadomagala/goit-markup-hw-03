@@ -156,6 +156,7 @@ footer {
   font-size: 14px;
   list-style: none;
   color: var(--font-color-footer);
+  padding-bottom: 60px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
