@@ -4,6 +4,7 @@
   --button-color-main-side: rgba(33, 150, 243, 1);
   --hover-focus-color: rgba(33, 150, 243, 1);
   --font-color-basic: rgba(33, 33, 33, 1);
+  --font-color-active: rgba(33, 150, 243, 1);
   --font-color-describe: rgba(117, 117, 117, 1);
   --font-color-special: rgba(255, 255, 255, 1);
   --font-color-footer: rgba(255, 255, 255, 0.6);
@@ -92,7 +93,6 @@ a:visited {
 }
 .navigation {
   display: inline-flex;
-  color: var(--font-color-basic);
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: 93px;
@@ -130,6 +130,9 @@ a:hover {
 }
 a:focus {
   color: var(--hover-focus-color);
+}
+.active a {
+  color: var(--font-color-active);
 }
 /* FOOTER */
 
