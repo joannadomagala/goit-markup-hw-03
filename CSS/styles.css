@@ -20,6 +20,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
   font-family: "roboto", sans-serif;
@@ -39,12 +41,10 @@ body {
   font-size: 26px;
   display: flex;
   justify-content: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-right: 0;
-  padding-left: 0;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
 }
-
 .web {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -63,20 +63,24 @@ body {
 .studio-footer {
   color: var(--font-color-special);
 }
-
 /* HEADER */
 .header-container {
   display: flex;
+  align-items: center;
 }
 .header-portfolio {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
 }
-
+.logo-nav {
+  display: flex;
+  align-items: center;
+}
 a:link {
   text-decoration: none;
   font-weight: 500;
@@ -93,12 +97,14 @@ a:visited {
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
+.logo-nav {
+  display: flex;
+}
 .navigation {
-  display: inline-flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-left: 93px;
-  padding-left: 0;
+  display: flex;
+}
+.navigation li {
+  margin-right: 46px;
 }
 .navigation li:not(:last-child) {
   margin-right: 46px;
@@ -106,16 +112,11 @@ a:visited {
 .kontakt-up {
   font-size: 14px;
   font-weight: 500;
-  list-style: none;
   display: flex;
-  justify-content: flex-end;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 0;
-  margin-left: 371px;
+  margin-left: auto;
+  list-style: none;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  width: 100%;
 }
 .kontakt-up li:first-child {
   margin-right: 50px;
@@ -128,7 +129,6 @@ a:visited {
   line-height: 1.17;
   letter-spacing: 0.02em;
 }
-
 a:hover {
   color: var(--hover-focus-color);
 }
@@ -166,7 +166,6 @@ footer {
   font-size: 14px;
   list-style: none;
   color: var(--font-color-footer);
-  margin-top: 0;
   padding-bottom: 60px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -177,9 +176,6 @@ footer {
 }
 .kontakt-down li:not(:last-child) {
   margin-bottom: 9px;
-}
-.address ul {
-  padding-left: 0;
 }
 .kontakt-footer a {
   font-size: 14px;
@@ -193,6 +189,7 @@ footer {
 
 .container-main-side {
   display: block;
+  height: 600px;
 }
 .main-side {
   background-color: var(--background-sides-element-color);
@@ -205,6 +202,7 @@ h1 {
   font-family: inherit;
   color: var(--font-color-special);
   font-weight: 900;
+  padding-top: 200px;
   line-height: 1.36;
   letter-spacing: 0.06em;
 }
@@ -220,6 +218,7 @@ h1 span {
   border: none;
   border-radius: 4px;
   padding: 10px 42px;
+  margin-top: 30px;
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
@@ -370,7 +369,7 @@ button.button-main-side:focus {
   font-size: 18px;
   font-weight: 700;
   font-family: inherit;
-  margin-bottom: 4px;
+  margin-top: 20px;
   padding-left: 24px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -379,7 +378,7 @@ button.button-main-side:focus {
   font-size: 16px;
   font-family: inherit;
   color: var(--font-color-describe);
-  margin-top: 0px;
+  margin-top: 4px;
   padding-left: 24px;
   padding-bottom: 20px;
   line-height: 1.87;
