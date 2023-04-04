@@ -40,7 +40,6 @@ body {
   justify-content: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-right: 94px;
 }
 
 .web {
@@ -95,7 +94,7 @@ a:visited {
   display: inline-flex;
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-right: 46px;
+  margin-left: 93px;
 }
 .navigation li:not(:last-child) {
   margin-right: 46px;
@@ -351,7 +350,6 @@ button.button-main-side:focus {
   font-size: 18px;
   font-weight: 700;
   font-family: inherit;
-  padding: 20px 0 0 24px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
@@ -359,7 +357,6 @@ button.button-main-side:focus {
   font-size: 16px;
   font-family: inherit;
   color: var(--font-color-describe);
-  padding: 0 0 20px 24px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
