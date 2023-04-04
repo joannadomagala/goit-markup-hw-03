@@ -41,6 +41,8 @@ body {
   justify-content: center;
   padding-top: 32px;
   padding-bottom: 32px;
+  margin-right: 0;
+  padding-left: 0;
 }
 
 .web {
@@ -96,6 +98,7 @@ a:visited {
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: 93px;
+  padding-left: 0;
 }
 .navigation li:not(:last-child) {
   margin-right: 46px;
@@ -105,10 +108,11 @@ a:visited {
   font-weight: 500;
   list-style: none;
   display: flex;
+  justify-content: flex-end;
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 371px;
-  align-items: center;
+  padding-left: 0;
+  margin-left: 371px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   width: 100%;
@@ -155,11 +159,13 @@ footer {
 .logo-footer {
   font-size: 26px;
   padding-top: 60px;
+  margin-bottom: 20px;
 }
 .kontakt-down {
   font-size: 14px;
   list-style: none;
   color: var(--font-color-footer);
+  margin-top: 0;
   padding-bottom: 60px;
   line-height: 1.71;
   letter-spacing: 0.03em;
