@@ -171,12 +171,12 @@ footer {
   letter-spacing: 0.03em;
 }
 .kontakt-down li {
-  margin-bottom: 9px;
   display: block;
 }
-.kontakt-down li:not(:last-child) {
+.kontakt-down li:first-child a {
   margin-bottom: 9px;
 }
+
 .kontakt-footer a {
   font-size: 14px;
   color: var(--font-color-footer);
