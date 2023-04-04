@@ -92,6 +92,7 @@ a:visited {
 }
 .navigation {
   display: inline-flex;
+  color: var(--font-color-basic);
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: 93px;
