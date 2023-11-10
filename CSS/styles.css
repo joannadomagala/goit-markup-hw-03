@@ -213,7 +213,7 @@ h1 span {
   background-color: var(--button-color-main-side);
   color: var(--font-color-special);
   font-size: 16px;
-  font-weight: 700;
+  /*font-weight: 700;*/
   cursor: pointer;
   border: none;
   border-radius: 4px;
